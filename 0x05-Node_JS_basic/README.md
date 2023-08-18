@@ -1,3 +1,0 @@
-## ALX SHORT SPECIALIZATION ##
-- 0x05-Node_JS_basic
-- Javascript
