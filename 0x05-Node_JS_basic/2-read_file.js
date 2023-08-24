@@ -3,8 +3,7 @@ const fs = require('fs');
 function countStudents(fileName) {
   const students = {};
   const fields = {};
-  let length = 0;
-
+  let length = 0
   try {
     const fileContents = fs.readFileSync(fileName, 'utf-8');
     const lines = fileContents.toString().split('\n');
@@ -24,7 +23,6 @@ function countStudents(fileName) {
         }
       }
     }
-    
     const l = length - 1;
     console.log(`Number of students: ${l}`);
     for (const [key, value] of Object.entries(fields)) {
